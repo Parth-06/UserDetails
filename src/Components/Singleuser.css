@@ -1,0 +1,37 @@
+.singleuser {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.single_image_large {
+  width: 13rem;
+  height: 13rem;
+  background-color: blanchedalmond;
+  border-radius: 500px;
+  margin-bottom: 1rem;
+  object-fit: "cover";
+}
+
+.tag_name {
+  font-weight: 700;
+}
+
+.user_address {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-align: center;
+}
+
+.singleuser p {
+  margin-bottom: 1rem;
+}
